@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/opnscty/go-httpclient/gohttp"
-	"github.com/opnscty/go-httpclient/gomime"
+	"github.com/OpenSocietyPlatform/go-httpclient/gohttp"
+	"github.com/OpenSocietyPlatform/go-httpclient/gomime"
 )
 
 var (
@@ -21,7 +21,7 @@ func getHttpClient() gohttp.Client {
 		SetConnectionTimeout(2 * time.Second).
 		SetResponseTimeout(3 * time.Second).
 		// SetHttpClient(&currentClient).
-		SetUserAgent("opnscty-server").
+		SetUserAgent("osp-server").
 		Build()
 
 	return client

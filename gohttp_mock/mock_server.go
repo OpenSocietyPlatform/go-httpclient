@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/opnscty/go-httpclient/core"
+	"github.com/OpenSocietyPlatform/go-httpclient/core"
 )
 
 var (

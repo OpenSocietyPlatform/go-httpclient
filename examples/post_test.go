@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/opnscty/go-httpclient/gohttp_mock"
+	"github.com/OpenSocietyPlatform/go-httpclient/gohttp_mock"
 )
 
 func TestCreateRepo(t *testing.T) {

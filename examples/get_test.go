@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opnscty/go-httpclient/gohttp_mock"
+	"github.com/OpenSocietyPlatform/go-httpclient/gohttp_mock"
 )
 
 func TestMain(m *testing.M) {
